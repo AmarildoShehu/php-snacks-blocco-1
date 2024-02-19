@@ -16,32 +16,37 @@ $matches = [
         'guest_team_name' => 'Cantù',
         'guest_team_score' => 60
     ],
-    [
-        'home_team_name' => 'Varese Roosters',
-        'home_team_score' => rand(1,100),
-        'guest_team_name' => 'Roseto Sharks',
-        'guest_team_score' => rand(1,100)
-    ],
-    [
-        'home_team_name' => 'Rimini Crabs',
-        'home_team_score' => rand(1,100),
-        'guest_team_name' => 'Legnano Knights',
-        'guest_team_score' => rand(1,100)
-    ],
-    [
-        'home_team_name' => 'Bologna Eagles',
-        'home_team_score' => rand(1,100),        
-        'guest_team_name' => 'Draghi Novara',
-        'guest_team_score' => rand(1,100)
-        
-    ],
-    [
-        'home_team_name' => 'Cantù',
-        'home_team_score' => rand(1,100),        
-        'guest_team_name' => 'Roseto Sharks',
-        'guest_team_score' => rand(1,100)        
-    ],
-]
+      [
+          'home_team_name' => 'Los Angeles Lakers',
+          'home_team_score' => 108,
+          'guest_team_name' => 'Golden State Warriors',
+          'guest_team_score' => 102
+      ],
+      [
+          'home_team_name' => 'Chicago Bulls',
+          'home_team_score' => rand(80, 120),
+          'guest_team_name' => 'Miami Heat',
+          'guest_team_score' => rand(80, 120)
+      ],
+      [
+          'home_team_name' => 'New York Knicks',
+          'home_team_score' => rand(80, 120),
+          'guest_team_name' => 'Boston Celtics',
+          'guest_team_score' => rand(80, 120)
+      ],
+      [
+          'home_team_name' => 'Los Angeles Clippers',
+          'home_team_score' => rand(80, 120),
+          'guest_team_name' => 'Houston Rockets',
+          'guest_team_score' => rand(80, 120)
+      ],
+      [
+          'home_team_name' => 'Golden State Warriors',
+          'home_team_score' => rand(80, 120),
+          'guest_team_name' => 'Miami Heat',
+          'guest_team_score' => rand(80, 120)
+      ],
+  ];
 ?>
 
 <!DOCTYPE html>
