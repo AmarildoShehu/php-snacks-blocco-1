@@ -44,6 +44,8 @@ if(isset($_GET['name']) && isset($_GET['mail']) && isset($_GET['age'])) {
     style="background: <?php echo $color; ?>">
         <h3>Risultato:</h3>
         <p ><?php echo $result; ?></p>
+        <a href="http://localhost/">Torna indietro</a>
     </div>
+   
 </body>
 </html>
