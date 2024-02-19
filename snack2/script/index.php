@@ -1,7 +1,10 @@
 
 <?php
 
+//iposto il result vuoto
 $result = "";
+
+// funzione
 if(isset($_GET['name']) && isset($_GET['mail']) && isset($_GET['age'])) {
     $name = $_GET['name'];
     $mail = $_GET['mail'];
@@ -37,7 +40,8 @@ if(isset($_GET['name']) && isset($_GET['mail']) && isset($_GET['age'])) {
     />
 </head>
 <body>
-    <div class="container mt-5 p-5" style="background: <?php echo $color; ?>">
+    <div class="container mt-5 p-5" 
+    style="background: <?php echo $color; ?>">
         <h3>Risultato:</h3>
         <p ><?php echo $result; ?></p>
     </div>
